@@ -1,0 +1,68 @@
+.App {
+  background-color: #282c34;
+  text-align: center;
+  min-height: 100vh;
+  padding: 1rem 2rem;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.search {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: left;
+}
+
+.search > .ui.input > input {
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  color: white;
+}
+
+.search > .ui.input > input:focus {
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  color: white;
+}
+
+.search > .ui.input > div.dropdown {
+  background: transparent;
+  color: white;
+  min-width: 10rem;
+  margin: 0 1rem 0 0;
+}
+
+.track {
+  color: white;
+}
+
+.track__title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.track__artist {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.track__id {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-right: 1rem;
+}
+
+.track__inner-container {
+  justify-content: flex-start;
+  display: flex;
+}
