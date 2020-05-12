@@ -13,12 +13,13 @@ by Christopher Melville
 - `/tracks` returns results by fuzzy search via url params `search` and `value`
   - e.g. `/api/v1/tracks?search=artist&value=12`
 - `/` returns all tracks
+- tests run with `jest` and `supertest`
 
 # Client
 
 - Utilizes React 16 (Hooks) with Typescript
-- Semantic UI component library used
-- One test with React Testing Library
+- `Semantic UI` component library used
+- One test with `React Testing Library`
 - multi env variables stored in `.env` file
 
 # Testing
