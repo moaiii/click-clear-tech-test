@@ -10,7 +10,8 @@ by Christopher Melville
 # API
 
 - Written in ExpressJS
-- `/tracks` returns results by fuzzy search
+- `/tracks` returns results by fuzzy search via url params `search` and `value`
+  - e.g. `/api/v1/tracks?search=artist&value=12`
 - `/` returns all tracks
 
 # Client
