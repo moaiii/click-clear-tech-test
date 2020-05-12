@@ -4,7 +4,7 @@ by Christopher Melville
 
 # Quick start
 
-- From root run `npm run setup`
+- From root run `npm run setup` to install all modules for project
 - From root run `npm start`. Both api and client will run one concurrent process
 
 # API

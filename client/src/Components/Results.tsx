@@ -1,4 +1,5 @@
 import React from 'react';
+import NoTracksWarning from './NoTracks';
 import { iTrack } from '../types';
 
 interface iProps {
@@ -6,6 +7,12 @@ interface iProps {
 }
 
 const Results = ({searchedTracks}: iProps) => {
+  if (searchedTracks.length === 0) {
+    return (
+      <NoTracksWarning />
+    )
+  }
+
   return (
     <div className="results">
       {Array.isArray(searchedTracks) && searchedTracks.map((track: iTrack) => {
